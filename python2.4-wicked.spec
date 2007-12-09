@@ -1,21 +1,21 @@
 %define module		wicked
 %define name		python2.4-%{module}
-%define version		1.1.5
+%define version		1.1.6
 %define release		%mkrel 1
-%define __python    %{_bindir}/python2.4
+%define __python	%{_bindir}/python2.4
 
 Name: 		%{name}
 Version: 	%{version}
 Release: 	%{release}
-Summary:    Compact syntax for doing wiki-like content
+Summary:	Compact syntax for doing wiki-like content
 Group: 		Development/Python
 License:	Python license
-URL:        http://pypi.python.org/pypi/wicked/1.1.5
-Source:     http://pypi.python.org/packages/source/w/wicked/%{module}-%{version}.tar.gz
-Requires:	    python2.4
+URL:		http://pypi.python.org/pypi/wicked/1.1.6
+Source:		http://pypi.python.org/packages/source/w/wicked/%{module}-%{version}.tar.bz2
+Requires:	python2.4
 BuildRequires:	python2.4-devel
 BuildRequires:	python2.4-setuptools
-BuildArch:	    noarch
+BuildArch:	noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
