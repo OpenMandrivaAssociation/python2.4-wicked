@@ -16,7 +16,6 @@ Requires:	python2.4
 BuildRequires:	python2.4-devel
 BuildRequires:	python2.4-setuptools
 BuildArch:	noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 wicked is a compact syntax for doing wiki-like content linking and creation in
