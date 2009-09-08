@@ -1,7 +1,7 @@
 %define module		wicked
 %define name		python2.4-%{module}
 %define version		1.1.6
-%define release		%mkrel 3
+%define release		%mkrel 4
 %define __python	%{_bindir}/python2.4
 
 Name: 		%{name}
